@@ -1,9 +1,9 @@
 function workingJS() {
     const addHelloWorldButton = document.getElementById("my-button");
-    const addTextButton = document.getElementById("add-element");
+    const addTextButton = document.getElementById("add-data");
 
     addHelloWorldButton.addEventListener("click", function() {
-        console.log("Hello world");
+        console.log("hello world");
 
         let title = document.getElementById("hello-world");
         title.innerText = "Moi maailma";
